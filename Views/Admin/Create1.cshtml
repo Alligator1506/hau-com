@@ -1,0 +1,60 @@
+﻿@model webtmdt.Data.Loai
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<!-- Page Heading -->
+<h1 class="h3 mb-2 text-gray-800">Create New HangHoa</h1>
+<p class="mb-4">Create a new HangHoa</p>
+<!-- End Page Heading -->
+
+<form asp-action="Create1">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="MaLoai" class="control-label"></label>
+        <input asp-for="MaLoai" class="form-control" placeholder="Nhập mã loại" />
+        <span asp-validation-for="MaLoai" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TenLoai" class="control-label"></label>
+        <input asp-for="TenLoai" class="form-control" placeholder="Nhập tên" />
+        <span asp-validation-for="TenLoai" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TenLoaiAlias" class="control-label"></label>
+        <input asp-for="TenLoaiAlias" class="form-control" placeholder="Nhập tên alias" />
+        <span asp-validation-for="TenLoaiAlias" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MoTa" class="control-label"></label>
+        <input asp-for="MoTa" class="form-control" placeholder="Nhập mô tả" />
+        <span asp-validation-for="MoTa" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Hinh" class="control-label"></label>
+        <input asp-for="Hinh" class="form-control" placeholder="Chọn ảnh" />
+        <span asp-validation-for="Hinh" class="text-danger"></span>
+    </div>  
+
+    <br>
+
+    <button asp-action="Categories" class="btn btn-secondary btn-icon-split btn-md">
+        <span class="icon text-white-30">
+            <i class="fas fa-arrow-left"></i>
+        </span>
+        <span class="text">Back</span>
+    </button>
+
+    <button type="submit" class="btn btn-primary btn-icon-split btn-md">
+        <span class="icon text-white-30">
+            <i class="fas fa-plus"></i>
+        </span>
+        <span class="text">Create New Loai</span>
+    </button>
+</form>

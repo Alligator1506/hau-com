@@ -1,0 +1,207 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="new_arrivals">
+    <div class="container">
+
+        <div class="flex h-screen bg-gray-100">
+            <aside class="w-64 bg-white p-4">
+                <nav class="text-sm">
+                    <div class="font-bold">Personal info</div>
+                    <a href="#" class="block py-2 text-blue-500">
+                        New orders
+                    </a>
+                    <a href="#" class="block py-2 hover:text-blue-500">
+                        Orders history
+                    </a>
+                    <a href="#" class="block py-2 hover:text-blue-500">
+                        My wishlist
+                    </a>
+                    <a href="#" class="block py-2 hover:text-blue-500">
+                        Transactions
+                    </a>
+                    <a href="#" class="block py-2 hover:text-blue-500">
+                        Profile setting
+                    </a>
+                    <a href="#" class="block py-2 hover:text-blue-500">
+                        Log out
+                    </a>
+                </nav>
+            </aside>
+            <main class="flex-1 p-6">
+                <section class="mb-8">
+                    <h2 class="text-lg font-semibold mb-4">Personal info</h2>
+                    <div class="bg-white p-4 shadow rounded">
+                        <div class="mb-4">
+                            <h3 class="font-bold">Mr. Jackson Mike</h3>
+                            <p>Email: myusername@gmail.com</p>
+                            <p>Phone: +1234567890988</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <p class="font-bold">United States, 490 Old Capitol Trail</p>
+                                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 mt-2">
+                                    Edit
+                                </button>
+                                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 mt-2 ml-2">
+                                    Delete
+                                </button>
+                            </div>
+                            <div>
+                                <p class="font-bold">Moscow city, Street name, House 77</p>
+                                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 mt-2">
+                                    Edit
+                                </button>
+                                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 mt-2 ml-2">
+                                    Delete
+                                </button>
+                            </div>
+                        </div>
+                        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2">
+                            + Add new address
+                        </button>
+                    </div>
+                </section>
+                <section>
+                    <h2 class="text-lg font-semibold mb-4">My recent orders</h2>
+                    <div class="bg-white p-4 shadow rounded mb-4">
+                        <div class="mb-4">
+                            <h3 class="font-bold mb-1">Order ID: 8924 - Pending</h3>
+                            <p>Date: 16 December 2018</p>
+                            <div class="flex justify-end">
+                                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 mr-2">
+                                    Cancel order
+                                </button>
+                                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2">
+                                    Track order
+                                </button>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4 mb-4">
+                            <div>
+                                <h4 class="font-bold">Contact</h4>
+                                <p>Mike Johnatan</p>
+                                <p>Phone: 371-295-9131</p>
+                                <p>Email: info@mywebsite.com</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Shipping address</h4>
+                                <p>United States</p>
+                                <p>3601 Old Capitol Trail, Unit A-7, Suite 1077</p>
+                                <p>Wilmington, DE 19808</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Payment</h4>
+                                <p>Visa **** 4216</p>
+                                <p>Shipping fee: $56</p>
+                                <p>Total paid: $456</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <img src="/placeholder.svg"
+                                     alt="Product"
+                                     class="h-12 w-12 mr-4"
+                                     width="50"
+                                     height="50"
+                                     style="aspect-ratio:50/50;object-fit:cover" />
+                                <div>
+                                    <p>T-shirts with multiple colors</p>
+                                    <p>Size: XXL</p>
+                                    <p>2x = $339.90</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <img src="/placeholder.svg"
+                                     alt="Product"
+                                     class="h-12 w-12 mr-4"
+                                     width="50"
+                                     height="50"
+                                     style="aspect-ratio:50/50;object-fit:cover" />
+                                <div>
+                                    <p>Apple iPhone 12</p>
+                                    <p>Color: red</p>
+                                    <p>1x = $990.00</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="/placeholder.svg"
+                                     alt="Product"
+                                     class="h-12 w-12 mr-4"
+                                     width="50"
+                                     height="50"
+                                     style="aspect-ratio:50/50;object-fit:cover" />
+                                <div>
+                                    <p>Gaming Headset 32db</p>
+                                    <p>Color: White</p>
+                                    <p>1x = $76.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-4 shadow rounded">
+                        <div class="mb-4">
+                            <h3 class="font-bold mb-1">Order ID: 1009 - Shipped</h3>
+                            <p>Date: 16 December 2018</p>
+                            <div class="flex justify-end">
+                                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 mr-2">
+                                    Cancel order
+                                </button>
+                                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2">
+                                    Track order
+                                </button>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4 mb-4">
+                            <div>
+                                <h4 class="font-bold">Contact</h4>
+                                <p>Mike Johnatan</p>
+                                <p>Phone: 371-295-9131</p>
+                                <p>Email: info@mywebsite.com</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Shipping address</h4>
+                                <p>United States</p>
+                                <p>3601 Old Capitol Trail, Unit A-7, Suite 1077</p>
+                                <p>Wilmington, DE 19808</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Payment</h4>
+                                <p>Visa **** 4216</p>
+                                <p>Shipping fee: $56</p>
+                                <p>Total paid: $456</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <img src="/placeholder.svg"
+                                     alt="Product"
+                                     class="h-12 w-12 mr-4"
+                                     width="50"
+                                     height="50"
+                                     style="aspect-ratio:50/50;object-fit:cover" />
+                                <div>
+                                    <p>Sofa for living room, New model A123</p>
+                                    <p>1x = $1,200.90</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="/placeholder.svg"
+                                     alt="Product"
+                                     class="h-12 w-12 mr-4"
+                                     width="50"
+                                     height="50"
+                                     style="aspect-ratio:50/50;object-fit:cover" />
+                                <div>
+                                    <p>Orange Armchair for Office</p>
+                                    <p>1x = $190.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</div>

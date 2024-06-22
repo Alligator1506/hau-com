@@ -1,0 +1,21 @@
+﻿@model IEnumerable<webtmdt.ViewModels.MenuLoaiVM>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <div class="sidebar_section">
+        <div class="sidebar_title">
+            <h5>CATEGORIES</h5>
+        </div>
+        <ul class="sidebar_categories">
+            @foreach (var item in Model)
+            {
+                <li>
+                    <a asp-controller="HangHoa" asp-action="Index" asp-route-loai="@item.MaLoai">
+                        <i class="fa fa-angle-double-right" aria-hidden="true"></i> @item.TenLoai
+                    </a>
+                    <span>(@item.SoLuong)</span>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

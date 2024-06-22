@@ -1,0 +1,55 @@
+﻿@model IEnumerable<webtmdt.ViewModels.MenuLoaiHomeVM>
+
+<style>
+    .grid_sorting_button_1 {
+        height: 40px;
+        min-width: 102px;
+        padding-left: 25px;
+        padding-right: 25px;
+        cursor: pointer;
+        border: solid 1px #ebebeb;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        background: #FFFFFF;
+        border-radius: 3px;
+        margin: 0;
+        float: left;
+        margin-left: -1px;
+    }
+
+        .grid_sorting_button_1:first-child {
+            margin-left: 0px;
+        }
+
+    .grid_sorting_button:last-child {
+    }
+
+    .grid_sorting_button_1.active:hover {
+        background: #FE7C7F !important;
+    }
+
+    .grid_sorting_button_1.active {
+        color: #FFFFFF;
+        background: #fe4c50;
+    }
+
+</style>
+
+<div class="row align-items-center">
+    <div class="col text-center">
+        <div class="new_arrivals_sorting">
+            <ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
+                <!-- Vòng lặp Razor để thay thế các mục động -->
+                @foreach (var item in Model)
+                {
+                    <li class="grid_sorting_button_1 button d-flex flex-column justify-content-center align-items-center">
+                        <a asp-controller="Home" asp-action="Index" asp-route-loai="@item.MaLoai">
+                            @item.TenLoai
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

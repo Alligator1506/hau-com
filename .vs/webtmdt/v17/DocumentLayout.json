@@ -1,0 +1,260 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repo\\webtmdt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\data\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:data\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\admin\\create2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\admin\\create2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\admin\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\admin\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\admin\\create1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\admin\\create1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\data\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:data\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\khachhang\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\khachhang\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\shared\\components\\menuloaihome\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\shared\\components\\menuloaihome\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\khachhang\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\khachhang\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|e:\\source\\repo\\webtmdt\\views\\shared\\_footershare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFB9712-2114-415D-87CE-5EDADF289FB5}|webtmdt.csproj|solutionrelative:views\\shared\\_footershare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 305,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Loai.cs",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Data\\Loai.cs",
+              "RelativeDocumentMoniker": "Data\\Loai.cs",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Data\\Loai.cs",
+              "RelativeToolTip": "Data\\Loai.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T15:55:04.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create1.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\Admin\\Create1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create1.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\Admin\\Create1.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create1.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T14:57:37.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhaCungCap.cs",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Data\\NhaCungCap.cs",
+              "RelativeDocumentMoniker": "Data\\NhaCungCap.cs",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Data\\NhaCungCap.cs",
+              "RelativeToolTip": "Data\\NhaCungCap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T14:54:21.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:25:59.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAH4AAACiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:34:46.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAqwMQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:45:32.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create2.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\Admin\\Create2.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create2.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\Admin\\Create2.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create2.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T14:54:09.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\Admin\\Categories.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Categories.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\Admin\\Categories.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Categories.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAswGcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T17:52:15.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\Shared\\Components\\MenuLoaiHome\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\MenuLoaiHome\\Default.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\Shared\\Components\\MenuLoaiHome\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\MenuLoaiHome\\Default.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T13:18:54.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAwwFMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:17:44.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\KhachHang\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\KhachHang\\Profile.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\KhachHang\\Profile.cshtml",
+              "RelativeToolTip": "Views\\KhachHang\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:04:49.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:51:24.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_FooterShare.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\Shared\\_FooterShare.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_FooterShare.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\Shared\\_FooterShare.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_FooterShare.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:04:21.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "E:\\source\\repo\\webtmdt\\Views\\KhachHang\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "Views\\KhachHang\\DangNhap.cshtml",
+              "ToolTip": "E:\\source\\repo\\webtmdt\\Views\\KhachHang\\DangNhap.cshtml",
+              "RelativeToolTip": "Views\\KhachHang\\DangNhap.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T17:31:48.498Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+﻿@model webtmdt.Data.HangHoa
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<!-- Page Heading -->
+<h1 class="h3 mb-2 text-gray-800">Delete Categories</h1>
+<p class="mb-4">Delete Categories</p>
+<!-- End Page Heading -->
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.TenHh)</th>
+            <th>@Html.DisplayNameFor(model => model.TenAlias)</th>
+            <th>@Html.DisplayNameFor(model => model.MoTaDonVi)</th>
+            <th>@Html.DisplayNameFor(model => model.DonGia)</th>
+            <th>@Html.DisplayNameFor(model => model.Hinh)</th>
+            <th>@Html.DisplayNameFor(model => model.NgaySx)</th>
+            <th>@Html.DisplayNameFor(model => model.GiamGia)</th>
+            <th>@Html.DisplayNameFor(model => model.SoLanXem)</th>
+            <th>@Html.DisplayNameFor(model => model.MoTa)</th>
+            <th>@Html.DisplayNameFor(model => model.MaLoaiNavigation)</th>
+            <th>@Html.DisplayNameFor(model => model.MaNccNavigation)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Html.DisplayFor(model => model.TenHh)</td>
+            <td>@Html.DisplayFor(model => model.TenAlias)</td>
+            <td>@Html.DisplayFor(model => model.MoTaDonVi)</td>
+            <td>@Html.DisplayFor(model => model.DonGia)</td>
+            <td>@Html.DisplayFor(model => model.Hinh)</td>
+            <td>@Html.DisplayFor(model => model.NgaySx)</td>
+            <td>@Html.DisplayFor(model => model.GiamGia)</td>
+            <td>@Html.DisplayFor(model => model.SoLanXem)</td>
+            <td>@Html.DisplayFor(model => model.MoTa)</td>
+            <td>@Html.DisplayFor(model => model.MaLoaiNavigation.MaLoai)</td>
+            <td>@Html.DisplayFor(model => model.MaNccNavigation.MaNcc)</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<form asp-action="Delete">
+    <a asp-action="Categories" class="btn btn-secondary btn-icon-split btn-md">
+        <span class="icon text-white-30">
+            <i class="fas fa-arrow-left"></i>
+        </span>
+        <span class="text">Back</span>
+    </a>
+    <input type="hidden" asp-for="MaHh" />
+    <button asp-for="MaHh" type="submit" class="btn btn-danger btn-icon-split">
+        <span class="icon text-white-50">
+            <i class="fas fa-trash"></i>
+        </span>
+        <span class="text">Delete</span>
+    </button>
+</form>

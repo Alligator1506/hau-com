@@ -1,0 +1,78 @@
+﻿@model webtmdt.Data.NhaCungCap
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<!-- Page Heading -->
+<h1 class="h3 mb-2 text-gray-800">Create New HangHoa</h1>
+<p class="mb-4">Create a new HangHoa</p>
+<!-- End Page Heading -->
+
+<form asp-action="Create2">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="MaNcc" class="control-label"></label>
+        <input asp-for="MaNcc" class="form-control" placeholder="Nhập mã nhà cung cấp" />
+        <span asp-validation-for="MaNcc" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TenCongTy" class="control-label"></label>
+        <input asp-for="TenCongTy" class="form-control" placeholder="Nhập tên công ty" />
+        <span asp-validation-for="TenCongTy" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Logo" class="control-label"></label>
+        <input asp-for="Logo" class="form-control" placeholder="Chọn logo" />
+        <span asp-validation-for="Logo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NguoiLienLac" class="control-label"></label>
+        <input asp-for="NguoiLienLac" class="form-control" placeholder="Nhập người liên lạc" />
+        <span asp-validation-for="NguoiLienLac" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" placeholder="Nhập Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DienThoai" class="control-label"></label>
+        <input asp-for="DienThoai" class="form-control" placeholder="Nhập số điện thoại" />
+        <span asp-validation-for="DienThoai" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DiaChi" class="control-label"></label>
+        <input asp-for="DiaChi" class="form-control" placeholder="Nhập địa chỉ" />
+        <span asp-validation-for="DiaChi" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MoTa" class="control-label"></label>
+        <input asp-for="MoTa" class="form-control" placeholder="Nhập mô tả" />
+        <span asp-validation-for="MoTa" class="text-danger"></span>
+    </div>
+
+    <br>
+
+    <button asp-action="Categories" class="btn btn-secondary btn-icon-split btn-md">
+        <span class="icon text-white-30">
+            <i class="fas fa-arrow-left"></i>
+        </span>
+        <span class="text">Back</span>
+    </button>
+
+    <button type="submit" class="btn btn-primary btn-icon-split btn-md">
+        <span class="icon text-white-30">
+            <i class="fas fa-plus"></i>
+        </span>
+        <span class="text">Create New NhaCC</span>
+    </button>
+</form>

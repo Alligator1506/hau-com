@@ -1,0 +1,18 @@
+﻿@model IEnumerable<webtmdt.ViewModels.HangHoaVM>
+
+@{
+	ViewData["Title"] = "Cửa hàng";
+	Layout = "_DanhSachHangHoa";
+}
+
+<!-- Breadcrumbs -->
+@section BreadCum {
+	<div class="breadcrumbs d-flex flex-row align-items-center">
+		<ul>
+			<li><a asp-action="Index" asp-controller="Home">HOME</a></li>
+			<li class="active"><a asp-action="Index" asp-controller="Home"><i class="fa fa-angle-right" aria-hidden="true"></i>SHOP</a></li>
+		</ul>
+	</div>
+}
+
+@await Html.PartialAsync("ProductItem", Model)

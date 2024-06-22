@@ -1,0 +1,21 @@
+﻿@model IEnumerable<webtmdt.ViewModels.HangHoaVM>
+
+@foreach (var item in Model)
+{
+    <div class="product-item">
+        <div class="product discount product_filter">
+            <div class="product_image">
+                <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
+                    <img src="~/Hinh/HangHoa/@item.Hinh" class="img-fluid w-100 rounded-top" alt="@item.TenHH">
+                </a>
+            </div>
+            <div class="favorite favorite_left"></div>
+            <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
+            <div class="product_info">
+                <h6 class="product_name"><a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">@item.TenHH</a></h6>
+                <div class="product_price">@string.Format(new System.Globalization.CultureInfo("vi-VN"), "{0:N0}", item.DonGia)VND</div>
+            </div>
+        </div>
+        <div class="red_button add_to_cart_button"><a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.MaHh">Thêm giỏ hàng</a></div>
+    </div>
+}
